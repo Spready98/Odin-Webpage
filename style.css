@@ -73,3 +73,35 @@ img[src = "./pain.png"] {
     max-width: 200px;
     max-height: 300px;
 }
+
+img[src = "./itachi.png"] {
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+img[src = "./orochimaru.png"] {
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+img[src = "./konan.png"] {
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+img[src = "./deidara.png"] {
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.header-image {
+    justify-content: flex-end;
+}
