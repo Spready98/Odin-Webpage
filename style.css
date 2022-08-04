@@ -20,6 +20,24 @@ body {
 .header-links {
     display: flex;
     gap: 30px;
+    
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-sub-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    font-weight: bold;
+    color: #e5e7eb;
 }
 .intro {
     display: flex;
@@ -28,27 +46,30 @@ body {
     padding-left: 150px;
     padding-right: 150px;
     padding-top: 80px;
+    justify-content: space-between;
 }
 
 
 a {
     text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 ul {
     list-style: none;
 }
 
-img[src = "./logo.png"] {
+img[src = "./acloud.png"] {
     height: auto;
     width: auto;
     max-width: 100px;
     max-height: 100px;
 }
 
-img[src = "./thor.png"] {
+img[src = "./pain.png"] {
     height: auto;
     width: auto;
     max-width: 200px;
-    max-height: 200px;
+    max-height: 300px;
 }
