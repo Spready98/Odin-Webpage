@@ -49,6 +49,45 @@ button {
     justify-content: space-between;
 }
 
+.mid-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 150px;
+}
+
+.card-img {
+    border: 4px solid #c22d5a;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    width: 180px;
+    height: 200px;
+}
+
+.info-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 48px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 180px;
+    max-height: 200px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+}
 
 a {
     text-decoration: none;
@@ -86,6 +125,8 @@ img[src = "./orochimaru.png"] {
     width: auto;
     max-width: 200px;
     max-height: 200px;
+    padding-left: 30px;
+    
 }
 
 img[src = "./konan.png"] {
@@ -100,8 +141,13 @@ img[src = "./deidara.png"] {
     width: auto;
     max-width: 200px;
     max-height: 200px;
+    padding-left: 50px;
 }
 
 .header-image {
     justify-content: flex-end;
+}
+
+.card-info {
+    font-size: 16px;
 }
