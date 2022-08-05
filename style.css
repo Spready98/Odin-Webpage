@@ -40,6 +40,8 @@ button {
     font-weight: bold;
     color: #e5e7eb;
     margin-top: 10px;
+    width: 100px;
+    height: 40px;
 }
 .intro {
     display: flex;
@@ -121,7 +123,7 @@ button {
     flex: 1 1 auto;
     align-items: center;
     justify-content: center;
-    gap: 300px;
+    gap: 250px;
    
 }
 
@@ -132,6 +134,7 @@ button {
 
 .action-info {
     color: #e5e7eb;
+    margin-top: -10px;
 }
 
 a {
